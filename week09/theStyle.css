@@ -1,0 +1,41 @@
+body {
+    background-color: blue;
+}
+
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+	
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	font-family: Comic Sans MS;
+	font-size: 3vw;
+	
+}
+
+
+.text {
+	display: flex;
+	justify-content: center;
+	font-family: Comic Sans MS;
+	font-size: 1vw;
+	
+}
+
+button {
+	font-size: 2vw;
+	padding:20vw;
+	background-color: white;
+  
+}
+
+button:hover {
+    background-color: LightGrey;
+	
+}

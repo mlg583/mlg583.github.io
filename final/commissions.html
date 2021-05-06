@@ -2,15 +2,23 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+ <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
+ 
   <script src="wow.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  <script src="script.js"></script>
-  <title>My Portfolio</title>
+  <script src="script.js"></script>	
+  <title>KHZC</title>
+  <script>
+  $(function () {
+	$('[data-toggle="popover"]').popover()
+})
+  </script>
 </head>
 
 <body>
@@ -18,7 +26,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="d-flex justify-content-center text-center display-3">Mitchell's Portfolio<br></h1>
+          <h1 class="d-flex justify-content-center text-center display-3">KHZC.net<br></h1>
         </div>
       </div>
     </div>
@@ -37,15 +45,7 @@
       </div>
     </div>
   </nav>
-  <div class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p class="lead">HERE'S A COMMISSION PAGE! THIS WAS MISSING FROM THE ORIGNAL PROJECT. I WANT TO ADD IMAGES AND OTHER FEATURES THAT MAKE IT EASIER TO LEARN THAN A WALL OF TEXT. (TOOLTIPS MAYBE?)</p>
-        </div>
-      </div>
-    </div>
-  </div>
+
   <div class="py-2" style="">
     <div class="container">
       <div class="row">
@@ -57,7 +57,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12" style="">
-          <p class="lead text-center">Thank you for being interested in commissioning work from me!<br>&nbsp;Please read over my terms and conditions first prior to ordering.<br></p>
+          <p class="lead text-center">Thank you for being interested in commissioning work from me!<br>&nbsp;Please read over my terms and conditions first prior to ordering. Order can be sent via private message on my social media or via email by clicking <i>"Contact"</i>.<br></p>
         </div>
       </div>
     </div>
@@ -76,11 +76,12 @@
               </thead>
               <tbody>
                 <tr>
-                  <td class="text-center">Colored Sketch</td>
+                  <td class="text-center"><button type="button" class="btn btn-link"  data-container="body" data-toggle="popover" data-placement="right" data-content="A Colored Sketch is a colored and shaded sketch more polished than the sketches I do during livestreams. Backgrounds are usually flat colors or simple.">Colored Sketch</button></td>
                   <td style="" class="text-center">$40 (per character)<br></td>
                 </tr>
                 <tr>
-                  <td class="text-center">Full Render</td>
+                 
+				  <td class="text-center"><button type="button" class="btn btn-link"  data-container="body" data-toggle="popover" data-placement="right" data-content="A Full Render is a fully-inked and shaded illustration, that may include a background or other elements.">Full Render</button></td>
                   <td class="text-center">$100+ (negotiated per order)&nbsp;</td>
                 </tr>
                 <tr></tr>
